@@ -1,4 +1,4 @@
-package headfirst.decorator.io;
+package decorator.io;
 
 import java.io.*;
 
@@ -8,7 +8,7 @@ public class InputTest {
 
 		try {
 			InputStream in = 
-				new LowerCaseInputStream(
+				new decorator.io.LowerCaseInputStream(
 					new BufferedInputStream(
 						new FileInputStream("test.txt")));
 
